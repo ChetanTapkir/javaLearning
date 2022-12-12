@@ -47,3 +47,9 @@ return temp;
     var foo = 2;
  }
  myfun();
+ function multiply()
+ {
+
+    
+ }
+ multiply();
