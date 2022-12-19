@@ -19,7 +19,7 @@ checkage(0);
 console.log(`========grade system ass2========`);
 var checkgrade = function(marks)
 {
-    if (marks>90)
+    if (marks>90 && marks<=100)
     {console.log(`fantastick marks ${marks} your grade is A+`);}
     if (marks>75 && marks<90)
     {console.log(`Excellent marks ${marks} your grade is A`);}
@@ -27,6 +27,8 @@ var checkgrade = function(marks)
     {console.log(`good  marks ${marks} your grade is B`);}
     if (marks>35 && marks<50)
     {console.log(` marks is  ${marks} your grade is C need to Improve`);}
+    if (marks<35 && marks>0)
+    {console.log(` marks is  ${marks} Soorry you are fail`);}
 
 
     if (marks<=0 || marks>100)
