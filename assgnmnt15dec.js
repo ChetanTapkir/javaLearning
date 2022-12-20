@@ -35,46 +35,15 @@
 // console.log(`your age is 45:                  ${checkt(0.90)}`);
 
 // console.log(">>>>>>To Check passing Grade");
-
+console.log("============Check age using if else================");
 var checkt = function(marks)
 { 
-     if
-    (marks>90)
-    {console.log(`Excellent marks ${marks} Your grade is A+`);}
-
-
-//      else
-//     (
-
-//          if(
-// marks>75&&marks<90;){
-// console.log(`Ecxllent marks ${$marks}your grade is A`);
-// };
-//             else
-//                 (
-//                   if(
-//     marks>50&&marks<75;
-//     console.log(`good marks${marks}your grade is B`);
-//                   );
-//             else(
-
-//                   if(
-//         marks>35&&marks<50;
-//         console.log(`Marks are ${marks}NEED TO Approve Your grade is C`);
-
-//                   );
-// else(
-//     marks=<0||marks>100;
-//     console.log(`Please Provide Valide Marks`);
-// );
-
-//             );
-
-//                 );
-
-  
-
-};
+      if(marks>90&&marks<100){console.log(`Fantastic marks ${marks} Your grade is A+`);}
+      else{if(marks> 75 && marks<90){console.log(`Ecxllent marks ${marks}your grade is A`);}
+      else{if(marks>50 && marks<75){console.log(`good marks${marks}your grade is B`);}
+      else{if(marks>35 && marks<50){console.log(`Marks are ${marks}NEED TO Approve Your grade is C`);}
+      else{if(marks<=0 || marks>100){console.log(`${marks}     Please Provide Valide Marks`);}
+      else{if(marks<35&&marks>=0){console.log(`${marks} you are fail`);}}}}} }} 
 checkt(98);
 checkt(80);
 checkt(90);
