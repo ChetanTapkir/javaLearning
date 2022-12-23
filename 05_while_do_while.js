@@ -25,9 +25,9 @@ i++
 
 var a=0;
 do{
-a=a+5
-console.log(a);
 
+console.log(a);
+a=a+5;
 }while(a<=50)
 
 var a=0;
@@ -46,3 +46,10 @@ console.log(a);
 
 
 }while(a>=0)
+
+do{
+
+    console.log(a);
+    a=a--;
+    }while(a<=70)
+    
