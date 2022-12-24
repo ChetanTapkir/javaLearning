@@ -30,3 +30,25 @@ console.log(`When provided value is greater than length : ${arrayOfNumbers[9]}`)
 
 arrayOfNumbers[2] = 100; // Update or Modify value using index
 console.log(arrayOfNumbers);
+
+let indexof7 = arrayOfNumbers.indexOf(7);
+console.log(`index of element 7 is ${indexof7}`);
+
+
+let indexof10 = arrayOfNumbers.indexOf(10);
+console.log(`index of element 7 is ${indexof7}`);
+
+
+
+console.log("==============traversing array using for loop ============");
+for (let index = 0; index < arrayOfNumbers.length; index++) {
+    const element = array[index];
+    console.log(element);
+}
+
+
+console.log("==============traversing even index value array using for loop ============");
+for (let index = 0; index < arrayOfNumbers.length; index++) {
+ if{   const element = array[index];
+    console.log(element);}
+}
