@@ -18,3 +18,14 @@ sbiBank.showDetails();
                     showDetails : function(){console.log(sbiBank);}
                 }
             axisBank.showDetails();                                   
+
+            
+     const axisBank  ={
+        bankName : "Axis Bank",
+        location : "Swarget",
+        accountNo : 100140045275,
+        IFSC : "UTIB000475",
+        interestRate : 8.6,
+        showDetails : function(){console.log(sbiBank);}
+    }
+axisBank.showDetails();
