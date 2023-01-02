@@ -59,9 +59,9 @@ for (let index = 0; index < arrayOfNumbers.length; index++) {
 
 console.log("==============traversing even index value array using for loop ============");
 for (let index = 0; index < arrayOfNumbers.length; index++) {
- if{   const element = array[index];
+ const element = array[index]
     console.log(element);}
-}
+
 
 
 
@@ -117,20 +117,20 @@ console.log(sliceResult);
 console.log(sliceRes);
 
 
-console.log(`======== splice() methods=========`);
-var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
-console.log(arrayOfNum);
-let spliceResult = arrayOfNum.splice(3);
-console.log(`After using splice(3) method `);
-console.log("Array after deleting elements ", arrayOfNum);
-console.log("Total deleted elements: ", spliceResult);
+// console.log(`======== splice() methods=========`);
+// var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
+// console.log(arrayOfNum);
+// let spliceResult = arrayOfNum.splice(3);
+// console.log(`After using splice(3) method `);
+// console.log("Array after deleting elements ", arrayOfNum);
+// console.log("Total deleted elements: ", spliceResult);
 
-var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
-console.log(arrayOfNum);
-let spliceRes = arrayOfNum.splice(2, 3);
-console.log(`After using splice(2, 3) method `);
-console.log("Array after deleting elements ", arrayOfNum);
-console.log("Total deleted elements: ", spliceRes);
+// var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
+// console.log(arrayOfNum);
+// let spliceRes = arrayOfNum.splice(2, 3);
+// console.log(`After using splice(2, 3) method `);
+// console.log("Array after deleting elements ", arrayOfNum);
+// console.log("Total deleted elements: ", spliceRes);
 
 
 console.log(`======== splice() methods=========`);

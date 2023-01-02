@@ -45,26 +45,13 @@ const datta = {
       processor: "M1 Processor"
   }
 
-//   const person = {
-//     height: 6,
-//     weight: 70,
-//     age: 23,
-//     name: "Billgates"
-//   }
-//   console.log(typeof person);
-//   console.log(person);
-  
-//   const personAge = person.age;
-//   console.log(`Person age is: ${personAge}`);
-  
 
-//   console.log(`=== Creating an empty object====`);
-// const mobile = {
+  console.log(`=== Creating an empty object====`);
+const mobile = {}
+mobile.company = "Micromax";
+mobile.camera = "20Px";
+console.log(mobile);
 
-// }
-// mobile.company = "Micromax";
-// mobile.camera = "20Px";
-// console.log(mobile);
 console.log(`nested object=========`);
 const student ={
 name :"stev jobd",
@@ -75,9 +62,6 @@ marks :{science : 70,
      },
 age : 50,
 familyMemberNames: [ 'Tony', 'Lonny', 'Jenny', 'Watigton']
-
-
-
 }
 const totalMarks =student.marks.add();
 console.log(`${totalMarks}`);
