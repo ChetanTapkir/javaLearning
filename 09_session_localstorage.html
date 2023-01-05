@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Session Storage  </title>
+    </head>
+    <body>
+        <h2> Session  Local Storage Learning</h2>
+            <script>
+        console.log("Hello --> Session storage");
+        window.localStorage.setItem("name", "Sitaram");
+        window.localtorage.setItem("grade", "A+");
+        window.Storage.setItem("college", "Fabtech College");
+        window.sessionStorage.setItem("city", "Sangola");
+        const len = window.sessionStorage.length;
+        console.log(len);
+        const clgName = window.sessionStorage.getItem("college");
+        console.log(clgName);
+        window.sessionStorage.removeItem("grade");
+        // window.sessionStorage.clear();
+     </script>
+
+        <!-- </script> -->
+    
+
+
+    </body>
+</html>
