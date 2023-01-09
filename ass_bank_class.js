@@ -43,18 +43,29 @@ console.log("============log set of banks on console using for of ");
 for (const iterator of setofBanks) {
     console.log(iterator);
 }
-console.log("============lets create map using set ========");
+console.log("============lets create map using .set(key,value) ========");
 const mapofbanks=new Map();
-mapofbanks.set();
-mapofbanks.set();
-mapofbanks.set();
+mapofbanks.set(sbiBank.accountNo,sbiBank.bankName);
+mapofbanks.set(KotakBank.accountNo,KotakBank.bankName);
+mapofbanks.set(axisbank.accountNo,axisbank.bankName);
+mapofbanks.set(iciciBank.accountNo,iciciBank.bankName);
+mapofbanks.set(hdfcBank.accountNo,hdfcBank.bankName)
 console.log("=========== lets print map on console ========")
 
-console.log(mapofbanks);
+const keyofmap = mapofbanks.keys()
+for (const key of keyofmap) {
+const bank = mapofbanks.get(key);
+    console.log(`Bank Account Details Are ${bank.accountNo},${bank.bankName}`);
+}
 
-
-
-
+// const keyofbanks = mapofbanks.keys();
+// console.log(keyofbanks);
+// console.log(mapofbanks);
+// for (const key of keyofbanks) {
+//     const bank = mapofbanks.get(key);
+//     console.log(`bank name :${bank.bankName},account no :${bank.accountNo}`);
+    
+// }
 // for (const key in axisbank) {
 //     if (Object.hasOwnProperty.call(axisbank, key)) {
 //         const element = axisbank[key];

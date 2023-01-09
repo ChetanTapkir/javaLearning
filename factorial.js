@@ -5,3 +5,4 @@ function factorial(result) {
         fact = fact * num;
     } console.log(`factorial of ${result} is------>${fact}`);
 }
+factorial(10)
